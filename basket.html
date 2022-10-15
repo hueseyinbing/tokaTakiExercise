@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hoşgeldiniz! | toka takı</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontAwesome/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" width="50" href="assets/icon.png" type="image/png">
+    <link rel="apple-touch-icon" width="50" href="assets/icon.png">
+</head>
+<body class="bgBody text-lowercase">
+  <a id="Header"></a>
+
+<!-- Header Navbar - Start -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light px-5 bgNav topShadow">
+    <div class="container">
+      
+        <a class="navbar-brand pe-3" href="/index.html"> <img width="100" src="assets/option.png" alt=""> </a>
+      
+     
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav >
+            <li class="nav-item">
+              <a class="linkStyle active pe-5" href="index.html">ana sayfa</a>
+            </li>
+            <li class="nav-item">
+              <a class="linkStyle pe-5" href="products.html">ürünler</a>
+            </li>
+            <li class="">
+              <a class="linkStyle" href="contact.html">iletişim</a>
+            </li>
+          </ul>
+        </div>
+        <span>
+          <a class="linkStyle float-start pe-5" href="basket.html"> <img class="fa-solid fa-basket-shopping fa-lg"> </a>
+          <a class="linkStyle float-end" href="account.html"> <img class="fa-solid fa-user fa-lg"> </a>
+        </span>
+    </div>
+  </nav>
+<!-- Header Navbar - End -->
+
+<!-- Shopping Basket - Start -->
+  <section class="h-100 bgBody textStyle mt-5 p-5">
+    <div class="container h-100 py-5">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-10">
+
+          <div class="d-flex justify-content-between align-items-center mb-4"> <h3 class="fw-normal mb-0 textStyle">alışveriş sepeti</h3>
+            <i class="fa-solid fa-basket-shopping fa-2x"></i>
+          </div>
+
+          <div class="card rounded-3 mb-4">
+            <div class="card-body p-4">
+              <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-2 col-lg-2 col-xl-2">
+                  <img
+                    src="https://images.unsplash.com/photo-1591210244853-ea68b6126edf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    class="img-fluid rounded-3" alt="taşlı bileklik">
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                  <p class="lead fw-normal mb-2"> taşlı bileklik</p>
+                  <p><span class="text-muted">ürün kodu: </span>BLKLK1 </p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                  <button class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                    <i class="fas fa-minus"></i>
+                  </button>
+
+                  <input id="form1" min="0" name="quantity" value="2" type="number"
+                    class="form-control form-control-sm" />
+
+                  <button class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                  <h5 class="mb-0">100₺</h5>
+                </div>
+                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                  <a href="#!" class="btnCol"><i class="fas fa-trash fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card rounded-3 mb-4">
+            <div class="card-body p-4">
+              <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-2 col-lg-2 col-xl-2">
+                  <img
+                    src="https://plus.unsplash.com/premium_photo-1661440002597-21a6d30a88f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    class="img-fluid rounded-3" alt="gümüş yüzük">
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                  <p class="lead fw-normal mb-2"> gümüş yüzük</p>
+                  <p><span class="text-muted">ürün kodu: </span>yzkyz1</p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                  <button class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                    <i class="fas fa-minus"></i>
+                  </button>
+
+                  <input id="form1" min="0" name="quantity" value="2" type="number"
+                    class="form-control form-control-sm" />
+
+                  <button class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                  <h5 class="mb-0">150₺</h5>
+                </div>
+                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                  <a href="#!" class="btnCol"><i class="fas fa-trash fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card rounded-3 mb-4">
+            <div class="card-body p-4">
+              <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-2 col-lg-2 col-xl-2">
+                  <img
+                    src="https://images.unsplash.com/photo-1615655114865-4cc1bda5901e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+                    class="img-fluid rounded-3" alt="yarımay küpe">
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                  <p class="lead fw-normal mb-2">yarımay küpe</p>
+                  <p><span class="text-muted">ürün kodu: </span>kpkpk1</p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                  <button class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                    <i class="fas fa-minus"></i>
+                  </button>
+
+                  <input id="form1" min="0" name="quantity" value="2" type="number"
+                    class="form-control form-control-sm" />
+
+                  <button class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                  <h5 class="mb-0">60₺</h5>
+                </div>
+                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                  <a href="#!" class="btnCol"><i class="fas fa-trash fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card rounded-3 mb-4">
+            <div class="card-body p-4">
+              <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-md-2 col-lg-2 col-xl-2">
+                  <img
+                    src="https://images.unsplash.com/photo-1588444968576-f8fe92ce56fd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                    class="img-fluid rounded-3" alt="taşlı kolye">
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-3">
+                  <p class="lead fw-normal mb-2">taşlı kolye
+                  </p>
+                  <p><span class="text-muted">ürün kodu: </span>klykl1</p>
+                </div>
+                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                  <button class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                    <i class="fas fa-minus"></i>
+                  </button>
+
+                  <input id="form1" min="0" name="quantity" value="2" type="number"
+                    class="form-control form-control-sm" />
+
+                  <button class="btn btn-link px-2"
+                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                    <i class="fas fa-plus"></i>
+                  </button>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                  <h5 class="mb-0">100₺</h5>
+                </div>
+                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                  <a href="#!" class="btnCol"><i class="fas fa-trash fa-lg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-body p-4 d-flex flex-row">
+              <div class="form-outline flex-fill">
+                <input type="text" placeholder="indirim kodu" id="form1" class="form-control form-control-lg" />
+              </div>
+              <button class="btn btn-outline-secondary btn-lg ms-3">uygula</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body row">
+              <div class="col-6 p-2">
+                <h5> toplam sepet tutarı: 410₺</h5>
+              </div>
+              <div class="col-6">
+                <button class="btn btn-secondary btn-block btn-lg float-end">ödeme yap</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Shopping Basket - End -->
+
+<!-- Footer Nav - Start -->
+        <nav class="navbar navbar-expand-lg navbar-light bgNav bottomShadow px-5">
+          <div class="container">
+            <a class="navbar-brand" href="/index.html"> <img width="50" src="assets/option.png" alt=""> </a>
+            <span>
+              <a class="linkStyle" href="https://www.facebook.com/"> <img class="fa-brands fa-square-facebook fa-2x"> </a>
+              <a class="linkStyle" href="https://www.instagram.com/"> <img class="fa-brands fa-square-instagram fa-2x"> </a>
+              <a class="linkStyle" href="https://www.whatsapp.com/"> <img class="fa-brands fa-square-whatsapp fa-2x"> </a>
+            </span>
+              <span class="navbar-text d-none d-md-block small">
+                designed by <a style="text-decoration: none;" href="http://github.com/hueseyinbing">hüseyin bingöl</a> · all rights reserved. ©
+              </span>
+              <span class="navbar-text small">
+                <a class="linkStyle" href="#Header">yukarı çık</a>
+              </span>
+            </div>
+          </div>
+        </nav>
+
+      
+
+<!-- Footer Nav - End -->
+
+<!-- Fontawesome's, Bootstrap's and JQuery's script docs added.-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery-3.5.1.slim.min.js"></script>
+<script src="fontAwesome/js/all.min.js" ></script>
+<!-- FA, BS, JQ Scripts -->
+</body>
+</html>

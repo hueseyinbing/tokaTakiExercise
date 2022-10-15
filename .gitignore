@@ -1,0 +1,13 @@
+/fontAwesome
+
+/js
+
+.DS_Store
+
+.log
+
+css/*
+!/css/style.css
+
+/options
+

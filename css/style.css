@@ -1,0 +1,72 @@
+.bgNav{
+    background-color: #ecc1a1;
+}
+/* Added for header navbar, footer navbar and some other usecases. */
+
+.textStyle{
+    color: #58626c;
+    text-decoration: none;
+    font-family: Playfair Display;
+}
+/* Font, color and style added for texts. */
+
+.linkStyle{
+    color: #58626c;
+    text-decoration: none;
+    font-family: Playfair Display;
+}
+/* Font, color and style added for links. */
+
+.fontFam{
+    font-family: Playfair Display;
+}
+/* Added for specific texts. */
+
+.textCol{
+    color: #58626c;
+}
+/* Added for specific texts. */
+
+.btnCol{
+    color: #ecc1a1;
+}
+/* Added for trash buttons in basket page. */
+
+.btnStyle{
+    color: #58626c;
+    text-decoration: none;
+    font-family: Playfair Display;
+}
+/* Font, color and style added for buttons. */
+
+.linkStyle:hover{
+    text-decoration: none;
+    color: #f5f1ee;
+}
+/* Added for hover coloring on buttons. */
+
+.btnStyle:hover{
+    text-decoration: none;
+    color: #f5f1ee;
+}
+/* Added for hover coloring on links. */
+
+.fontFam{
+    font-family: Playfair Display;
+}
+/* Seperate font class and style added for some minor cases.*/
+
+.topShadow{
+    border-bottom: #58626c 1px solid;
+}
+/* Addded for header navbar's bottom shadowing. */
+
+.bottomShadow{
+    border-top: #58626c 0.1px solid;
+}
+/* Addded for footer navbar's top shadowing. */
+
+.bgBody{
+    background-color: #f5f1ee;
+}
+/* Added for main body's background coloring. */
